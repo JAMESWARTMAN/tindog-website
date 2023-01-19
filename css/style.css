@@ -138,8 +138,8 @@ p {
     background-color: #ef8172;
 }
 
-.test-img {
-    width: 10%;
+.testimonial-image {
+    width: 20%;
     border-radius: 100%;
     margin: 20px;
 }
@@ -209,5 +209,14 @@ p {
     }
     #title {
         text-align: center;
+    }
+}
+
+@media(max-width: 935px) {
+    .title-container {
+        text-align: center;
+    }
+    .press-img {
+        width: 25%;
     }
 }
